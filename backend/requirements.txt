@@ -1,0 +1,20 @@
+fastapi==0.128.0
+uvicorn[standard]==0.23.2
+sqlmodel==0.0.32
+pydantic-settings==2.12.0
+pydantic==2.8.1
+passlib[bcrypt]==1.7.4
+PyJWT==2.12.0
+PyMySQL==1.1.1
+cryptography==46.0.7
+python-dotenv==1.2.2
+requests==2.33.0
+alembic==1.12.0
+python-multipart==0.0.27
+email-validator==2.0.0
+python-json-logger==2.0.4
+bcrypt==4.0.1     # Versão recomendada conforme diretriz
+pandas
+google-api-python-client
+google-auth
+boto3
