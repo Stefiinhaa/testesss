@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ef4f8b">
+    <title>Registrar - FullEduca</title>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" type="image/svg+xml" href="/full-educa-icone.svg">
+    <link rel="apple-touch-icon" href="/full-educa-icone.svg">
+    <link rel="stylesheet" type="text/css" href="toastify.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script type="module" src="register.js"></script>
+</head>
+<body class="auth-body">
+    <div class="login-container">
+        <form class="register-form">
+            <h2>Registrar</h2>
+            <p class="helper-text">O cadastro público está desabilitado. Solicite a criação da conta a um administrador do FullEduca.</p>
+            <div class="input-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="seu@email.com" required autocomplete="username" disabled>
+            </div>
+            <div class="input-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" placeholder="Sua senha" required autocomplete="new-password" disabled>
+            </div>
+            <button type="submit" disabled>Registro indisponível</button>
+            <div class="login-link">
+                <a href="login.html">Já tem conta? Entrar</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
